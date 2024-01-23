@@ -34,6 +34,10 @@ export const Calendar = () => {
       .then(({ data }) => {
         setSlots(data);
         setLoader(false);
+      })
+      .catch((error) => {
+        console.log(error);
+        setLoader(false);
       });
   }, [dateRange.startDate, dateRange.endDate]);
 
