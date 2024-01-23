@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600&display=swap");
 :root {
-  --primary-color: #7834ce;
-  --secondary-color: #e287d8;
-  --text-color: #06020a;
-  --bg-color: #faf7fd;
-  --accent-color: #d85ab5;
+  --primary-color: #4078d7;
+  --secondary-color: #86aef1;
+  --text-color: #06080d;
+  --bg-color: #f7f9fd;
+  --accent-color: #4285f7;
   --font-w-200: 200;
   --font-w-400: 400;
   --font-w-600: 600;
@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   color: var(--text-color);
 }
 
@@ -25,4 +25,16 @@ ul {
 
 .flex {
   display: flex;
+}
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  padding: 2rem;
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 1rem;
+  }
 }

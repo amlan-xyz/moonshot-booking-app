@@ -1,0 +1,27 @@
+.loader {
+  position: relative;
+  top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+}
+
+.loader::after {
+  content: "";
+  width: 45px;
+  aspect-ratio: 1;
+  border: 10px solid var(--primary-color);
+  border-top-color: var(--secondary-color);
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
