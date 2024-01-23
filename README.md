@@ -7,6 +7,9 @@ Booking web application built with ReactJS for a smooth and responsive user inte
 2. Booking Page
 3. Calendar functionality
 4. Slot Selection
+5. Responsive design.
+6. Loader.
+7. Empty Message card.
 
 ## Built using -
   - React JS
